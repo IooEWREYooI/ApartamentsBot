@@ -3,7 +3,7 @@ import telebot
 import sqlite3
 from sqlite3 import Error
 
-bot = telebot.TeleBot('6075731723:AAF3Ton4NG-2tClNddhArtBgcpzFeTDb6nk')
+bot = telebot.TeleBot('YOUR_TOKEN')
 
 
 def create_connection(path):
